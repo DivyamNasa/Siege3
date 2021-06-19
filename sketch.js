@@ -76,9 +76,8 @@ function setup() {
 }
 
 function draw() {
-  if(timecolour){
         background(timecolour);
-  }
+  getTime()
   Engine.update(engine);
 
 
